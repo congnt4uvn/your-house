@@ -1,9 +1,9 @@
 // Thông tin liên hệ chung cho tất cả bất động sản
 const contactInfo = {
-  name: "Công ty BĐS ABC",
-  phone: "0909999999",
+  name: "YOUR HOUSE",
+  phone: "0358 965 708",
   facebook: "https://facebook.com/bdsabc",
   email: "contact@bdsabc.com",
-  address: "123 Nguyễn Huệ, TP.HCM",
-  zalo: "https://zalo.me/0909999999"
+  address: "q7, TP.HCM",
+  zalo: "https://zalo.me/0358965708"
 };
