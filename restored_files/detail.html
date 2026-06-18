@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Tiết Bất Động Sản</title>
+  <meta name="description" content="Xem chi tiết thông tin bất động sản">
+ 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+ 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header py-3">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        <a href="index.html" class="logo">
+          <i class="bi bi-house-heart-fill"></i> BĐS ABC
+        </a>
+        <div class="contact-info">
+          <span class="phone">
+            <i class="bi bi-telephone-fill"></i> 0909 999 999
+          </span>
+          <a href="https://facebook.com/bdsabc" target="_blank">
+            <i class="bi bi-facebook"></i> Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+   
+    <!-- Back Button -->
+    <div class="mb-4">
+      <a href="index.html" class="btn-back">
+        <i class="bi bi-arrow-left"></i> Quay lại danh sách
+      </a>
+    </div>
+
+    <!-- Property Detail -->
+    <div id="propertyDetail" class="detail-container">
+     
+      <!-- Property Info -->
+      <div class="detail-info">
+        <h1 id="propertyTitle">Đang tải...</h1>
+        <div class="detail-price" id="propertyPrice">-</div>
+       
+        <div class="detail-specs">
+          <div class="spec-item">
+            <strong><i class="bi bi-geo-alt-fill"></i> Địa chỉ</strong>
+            <span id="propertyStreet">-</span>
+          </div>
+          <div class="spec-item">
+            <strong><i class="bi bi-rulers"></i> Diện tích</strong>
+            <span id="propertyArea">-</span>
+          </div>
+          <div class="spec-item">
+            <strong><i class="bi bi-compass"></i> Hướng</strong>
+            <span id="propertyDirection">-</span>
+          </div>
+        </div>
+
+        <div class="mt-4">
+          <h4><i class="bi bi-file-text"></i> Mô tả chi tiết</h4>
+          <p id="propertyDescription" class="mt-3">-</p>
+        </div>
+
+        <!-- Image Gallery -->
+        <div id="propertyImages" class="row g-3 mb-4">
+          <!-- Images will be rendered by JavaScript -->
+        </div>
+
+        <!-- Contact Box -->
+        <div class="contact-box">
+          <h3><i class="bi bi-person-lines-fill"></i> Thông tin liên hệ</h3>
+          <p><strong>Đơn vị:</strong> <span id="contactName">-</span></p>
+          <div class="d-flex flex-wrap gap-2">
+            <a id="contactPhone" href="tel:" class="btn btn-success">
+              <i class="bi bi-telephone-fill"></i> Gọi ngay
+            </a>
+            <a id="contactFacebook" href="#" target="_blank" class="btn btn-primary">
+              <i class="bi bi-facebook"></i> Nhắn tin Facebook
+            </a>
+            <a href="https://zalo.me/0909999999" target="_blank" class="btn btn-info text-white">
+              <i class="bi bi-chat-dots-fill"></i> Chat Zalo
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5><i class="bi bi-house-heart-fill"></i> Công ty BĐS ABC</h5>
+          <p>Chuyên mua bán, cho thuê bất động sản cao cấp. Uy tín - Chuyên nghiệp - Tận tâm.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5><i class="bi bi-geo-alt-fill"></i> Liên Hệ</h5>
+          <p>
+            <i class="bi bi-telephone-fill"></i> Hotline: 0909 999 999<br>
+            <i class="bi bi-envelope-fill"></i> Email: contact@bdsabc.com<br>
+            <i class="bi bi-house-door-fill"></i> Địa chỉ: 123 Nguyễn Huệ, TP.HCM
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5><i class="bi bi-share-fill"></i> Mạng Xã Hội</h5>
+          <div class="social-links">
+            <a href="https://facebook.com/bdsabc" target="_blank" title="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://zalo.me/0909999999" target="_blank" title="Zalo">
+              <i class="bi bi-chat-dots-fill"></i>
+            </a>
+            <a href="tel:0909999999" title="Gọi ngay">
+              <i class="bi bi-telephone-fill"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.1)">
+      <div class="text-center mt-3">
+        <p>&copy; 2026 Công ty BĐS ABC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Theme Switcher -->
+  <script src="js/theme.js"></script>
+  <!-- Contact Info -->
+  <script src="js/contact.js"></script>
+  <!-- Data -->
+  <script src="js/data.js"></script>
+  <!-- Detail Logic -->
+  <script src="js/detail.js"></script>
+
+</body>
+</html>
