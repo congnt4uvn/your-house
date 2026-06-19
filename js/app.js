@@ -249,7 +249,7 @@ function showPropertyDetail(propertyId) {
            
             <div class="mb-3">
               <strong><i class="bi bi-telephone-fill"></i> Số điện thoại:</strong><br>
-              <a href="tel:0909999999" class="text-decoration-none" id="modalContactPhone">0909 999 999</a>
+              <a href="tel:0358965708" class="text-decoration-none" id="modalContactPhone">0358 965 708</a>
             </div>
            
             <div class="mb-3">
@@ -259,7 +259,7 @@ function showPropertyDetail(propertyId) {
             </div>
            
             <div>
-              <a href="tel:0909999999" class="btn btn-success w-100">
+              <a href="tel:0358965708" class="btn btn-success w-100">
                 <i class="bi bi-telephone-fill"></i> Gọi ngay
               </a>
             </div>
